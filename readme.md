@@ -208,7 +208,7 @@ bob.save( function (err) {
 
 Now run the app with `node server.js` to see the result!
 
-We'll create two users using the User method from before, along with the default save method from Mongoose:
+We'll create another user using the User method from before, along with the default save method from Mongoose:
 
 ```javscript
 var User = require( './models/user' );
@@ -233,7 +233,7 @@ newUser.save( function( err ) {
 
 We can use the built in methods to get a hold of what we're looking for such as: `.find`, and `.findById`.
 
-`.find` is quite dynamic, think of it like a `SELECT` SQL statement, but without all the extra language.
+`.find` is quite dynamic
 
 Inside `server.js` let's add:
 
