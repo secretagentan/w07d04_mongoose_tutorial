@@ -1,0 +1,27 @@
+{
+  "name": "w07d04_mongoose_tutorial",
+  "version": "1.0.0",
+  "description": "### Objectives *After this lesson, students will be able to:*",
+  "main": "./family-tree/server.js",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.8",
+    "morgan": "^1.7.0",
+    "mpromise": "^0.5.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/secretagentan/w07d04_mongoose_tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/secretagentan/w07d04_mongoose_tutorial/issues"
+  },
+  "homepage": "https://github.com/secretagentan/w07d04_mongoose_tutorial#readme"
+}
