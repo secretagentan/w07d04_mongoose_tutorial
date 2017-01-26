@@ -184,6 +184,8 @@ var User = require( './models/user' );
 #### Create
 
 // create a new user called bob
+```
+
 var bob = new User( {
   firstName: 'Bob',
   email: 'bob@ga.co',
